@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Tickets, Plays, Sports, Events & Cinemas - BookMyShow</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--fontawesome-->
+    <link rel="icon" href="titlelogo/favicon.ico"> <!--title logo-->
+    <link rel="stylesheet" href="bookmyshowSample.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <img src="bookmyshow-logo1.jpg" alt="">
+        <div class="searchbar">
+            <input type="text" name="search" id="search"
+                placeholder="  Search For Movies, Events, Plays, Sports and Activities">
+        </div>
+        <div class="right">
+            <a href="#">Erode <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <button class="signinbtn" id="signinbtn">Sign in</button>
+        </div>
+        <div class="rightmenubar" id="menubtn">
+
+            <div class="menubar"></div>
+            <div class="menubar"></div>
+            <div class="menubar"></div>
+        </div>
+        <!-- <button id="menubtn">click</button> -->
+        <!-- <img src="m.png" alt="" id="menubtn"> -->
+    </nav>
+
+
+    <div class="popup">
+        <div class="popup_content">
+            <h4>Get Started</h4>
+            <i class="fa fa-times" aria-hidden="true" id="closebtn"></i>
+            <a href="" class="signlink"><img src="Google G logo.png" alt="">Continue with Google</a>
+            <a href="" class="signlink"><img src="mail logo.jpg" alt="">Continue with Email</a>
+            <a href="" class="signlink"><img src="Apple logo.png" alt="">Continue with Apple</a>
+            <p>OR</p>
+            <div>
+                <img src="Flag_of_India.png" alt="">
+                <p> +91 <input placeholder="  Continue with mobile number"></p>
+            </div>
+            <div class="footersignin">
+                <p> I agree to the <a href="https://in.bookmyshow.com/terms-and-conditions" target="_blank">Terms &
+                        Conditions</a> & <a href="https://in.bookmyshow.com/privacy" target="_blank">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="menucontainer">
+        <div class="menucontainer1"></div>
+        <div class="menu">
+
+            <div class="menu1">
+                <h4>Hey!</h4>
+            </div>
+            <div class="menu2">
+                <img src="https://in.bmscdn.com/webin/movies/superstar/rewards_login.png" alt="">
+                <p>Unlock special offers & <br>great benefits</p>
+                <button>Login / Register</button>
+            </div>
+            <div class="menu3">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="1 0 22 22">
+                        <path fill="#666" fill-rule="evenodd"
+                            d="M13.977 5.094l.002.002-.005-.002v.001l-.021-.005.206.045A5.002 5.002 0 0 1 18 10v6.974L20 19h-2l-3.55-.001a2.5 2.5 0 1 1-4.9 0L7.027 19v.004h-3L6 17.003V10a5.002 5.002 0 0 1 4.048-4.91l-.049.01L10 4a2 2 0 1 1 4 0l.001 1.1-.008-.002-.035-.008.018.004zm-.563 13.905h-2.829a1.5 1.5 0 1 0 2.83 0zM13 6h-2a4 4 0 0 0-4 4v6.978L7.014 18H17v-8a4 4 0 0 0-4-4zm.983-.904l.003.001.007.001-.008-.001-.002-.001zm-.002 0h.002l-.005-.002.003.002zm-.28-.047l.112.017.018.002-.13-.019zm-3.388-.003l-.057.009.036-.005.02-.004zm.267-.029l-.172.018.148-.016.024-.002zm2.928.008l.082.01a5.014 5.014 0 0 0-.082-.01zm-2.803-.016l-.125.008h.015l.11-.008zm2.538-.003h.013l.05.003-.063-.003zM12 3a1 1 0 0 0-1 1v1h2V4a1 1 0 0 0-1-1z">
+                        </path>
+                    </svg>
+                    <p>Notification</p>
+                    <svg width="6" height="11" xmlns="http://www.w3.org/2000/svg">
+                        <title>Right Arrow</title>
+                        <path
+                            d="M.627.958a.572.572 0 0 1 0-.747.447.447 0 0 1 .679 0l4.04 4.469a.569.569 0 0 1 0 .75L1.307 9.9a.447.447 0 0 1-.68 0 .572.572 0 0 1 0-.747l3.706-4.097L.627.958z"
+                            fill="#999"></path>
+                    </svg>
+                </a>
+            </div>
+            <hr>
+            <div class="menu4">
+                <a href=""><img src="https://assets-in.bmscdn.com/members/common/icons/purchasehistory.png" alt="">
+                    <p>Your orders <br> <span>View all your bookings & purchases</span></p> <svg
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                        <path fill="#666" fill-rule="evenodd"
+                            d="M12 2a4 4 0 0 1 4 4v2h1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a4 4 0 0 1 4-4zm5 7H7a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1zm-5 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-11a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <hr>
+            <div class="menu5">
+                <a href="https://in.bookmyshow.com/login?referer=/my-profile/play-card-details"><img
+                        src="https://assets-in.bmscdn.com/members/common/icons/playcreditcard.png" alt="">
+                    <p>Play Credit Card <br><Span>View your play Credit Card details and offers</Span></p>
+                    <svg width="6" height="11" xmlns="http://www.w3.org/2000/svg">
+                        <title>Right Arrow</title>
+                        <path
+                            d="M.627.958a.572.572 0 0 1 0-.747.447.447 0 0 1 .679 0l4.04 4.469a.569.569 0 0 1 0 .75L1.307 9.9a.447.447 0 0 1-.68 0 .572.572 0 0 1 0-.747l3.706-4.097L.627.958z"
+                            fill="#999"></path>
+                    </svg>
+                </a>
+            </div>
+            <hr>
+            <div class="menu6">
+                <a href="https://support.bookmyshow.com/support/home">
+                    <img src="https://assets-in.bmscdn.com/members/common/icons/helpandsupport.png" alt="">
+                    <p>Help & Support</p>
+                    <svg width="6" height="11" xmlns="http://www.w3.org/2000/svg">
+                        <title>Right Arrow</title>
+                        <path
+                            d="M.627.958a.572.572 0 0 1 0-.747.447.447 0 0 1 .679 0l4.04 4.469a.569.569 0 0 1 0 .75L1.307 9.9a.447.447 0 0 1-.68 0 .572.572 0 0 1 0-.747l3.706-4.097L.627.958z"
+                            fill="#999"></path>
+                    </svg>
+                </a>
+            </div>
+            <hr>
+            <div class="menu7">
+                <a href="https://in.bookmyshow.com/my-profile/rewards">
+                    <img src="https://assets-in.bmscdn.com/members/common/icons/rewards.png" alt="">
+                    <p>Rewards <br> <span>View your rewards & unlock nw ones</span></p>
+                    <svg width="6" height="11" xmlns="http://www.w3.org/2000/svg">
+                        <title>Right Arrow</title>
+                        <path
+                            d="M.627.958a.572.572 0 0 1 0-.747.447.447 0 0 1 .679 0l4.04 4.469a.569.569 0 0 1 0 .75L1.307 9.9a.447.447 0 0 1-.68 0 .572.572 0 0 1 0-.747l3.706-4.097L.627.958z"
+                            fill="#999"></path>
+                    </svg>
+
+                </a>
+            </div>
+            <hr>
+            <div class="menu8">
+                <a href="https://in.bookmyshow.com/donation/"><img
+                        src="https://assets-in.bmscdn.com/members/common/icons/bookasmile.png" alt="">
+                    <p>BookASmile</p>
+                    <svg width="6" height="11" xmlns="http://www.w3.org/2000/svg">
+                        <title>Right Arrow</title>
+                        <path
+                            d="M.627.958a.572.572 0 0 1 0-.747.447.447 0 0 1 .679 0l4.04 4.469a.569.569 0 0 1 0 .75L1.307 9.9a.447.447 0 0 1-.68 0 .572.572 0 0 1 0-.747l3.706-4.097L.627.958z"
+                            fill="#999"></path>
+                    </svg>
+                </a>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+
+
+    <div class="header">
+        <!-- <navbar> -->
+        <div class="leftsect">
+            <a href="https://in.bookmyshow.com/explore/movies-chennai">Movies</a>
+            <a href="https://in.bookmyshow.com/explore/c/stream">Stream <!-- <sup>NEW</sup> --> </a>
+            <a href="https://in.bookmyshow.com/explore/events-chennai">Events</a>
+            <a href="https://in.bookmyshow.com/explore/plays-chennai">Plays</a>
+            <a href="https://in.bookmyshow.com/explore/sports-chennai">Sports</a>
+            <a href="https://in.bookmyshow.com/explore/activities-chennai">Activities</a>
+            <a href="https://in.bookmyshow.com/buzz">Buzz</a>
+        </div>
+        <div class="rightsect">
+            <a href="https://in.bookmyshow.com/list-your-show/">ListYourShow</a>
+            <a href="https://in.bookmyshow.com/voucher">Corporates</a>
+            <a href="https://in.bookmyshow.com/offers">Offers</a>
+            <a href="https://in.bookmyshow.com/giftcards">Gift Cards</a>
+        </div>
+        <!-- </navbar> -->
+    </div>
+
+
+    <div class="ads1">
+        <a href="https://in.bookmyshow.com/login?referer=/play-credit-card" target="_blank"><img
+                src="https://assets-in.bmscdn.com/promotions/cms/creatives/1684393330089_tarana2desktop.jpg" alt=""></a>
+        <!-- <a href="https://in.bookmyshow.com/sports/motogp-grand-prix-of-india-2023/ET00360797"><img
+                src="https://assets-in.bmscdn.com/promotions/cms/creatives/1685616248053_motogpweb.jpg" alt=""></a> -->
+        <!-- <a href="https://in.bookmyshow.com/my-profile/rewards"><img
+                src="https://assets-in.bmscdn.com/promotions/cms/creatives/1680083241797_rewardsweb.jpg" alt=""></a>
+
+         <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1684393330089_tarana2desktop.jpg" alt="">
+         <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1682617779318_webbannernpa.jpg" alt=""> 
+         <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1680083241797_rewardsweb.jpg" alt=""> -->
+    </div>
+
+
+    <div class="section1title">
+        <p><b>Recommended Movies</b></p>
+        <a href="https://in.bookmyshow.com/explore/movies-chennai">See All<i class="fa fa-angle-right"
+                aria-hidden="true"></i> </a>
+    </div>
+
+
+    <div class="section1">
+
+        <!-- <div class="s1first"> -->
+        <a href="https://in.bookmyshow.com/chennai/movies/ponniyin-selvan-part-2/ET00348725"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4zLzEwICA3OC41SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00348725-klgyqztdbe-portrait.jpg"
+                alt=""><br><b>Ponniyin Selvan Part-2</b><br><span> Action/Adventure/Drama/ <br>
+                Historical</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/zara-hatke-zara-bachke/ET00359644"><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MjUuMUsgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00359644-scgjqlnukg-portrait.jpg"
+                alt=""><br><b>Zara Hatke Zara Bachke</b><br><span> Comedy/Drama/Romantic</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/veeran/ET00360700"><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NUsgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00360700-ruljftttld-portrait.jpg"
+                alt=""><br><b>Veeran</b><br><span> Action/Drama/Fantasy</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/kathar-basha-endra-muthuramalingam/ET00360225"><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NS43SyBMaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00360225-ewqwjnxqvq-portrait.jpg"
+                alt=""><br><b>Kathar Basha Endra Muthuramalingam</b><br><span> Action/Crime/Drama</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/pichaikkaran-2/ET00324847"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny41LzEwICA3LjdLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00324847-xafhulzftw-portrait.jpg"
+                alt=""><br><b>Pichaikaran 2</b><br><span> Action/Thriller</span></a>
+        <!-- </div> -->
+
+        <!-- slidebutton -->
+        <img src="rightarrow.png" alt="" id="s1rightarrow">
+
+        <img src="leftarrowold.png" alt="" id="s1leftarrow">
+        <!-- <div class="s1second"> -->
+        <a href="https://in.bookmyshow.com/chennai/movies/ponniyin-selvan-part-2/ET00348725"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni4zLzEwICAxMC4xSyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357727-nxtamxtcmz-portrait.jpg"
+                alt=""><br><b>Ponniyin Selvan Part-2</b><br><span> Action/Adventure/Drama/ <br>
+                Historical</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/ponniyin-selvan-part-2/ET00348725"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS40LzEwICAyOC44SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357691-bhuwmdetxv-portrait.jpg"
+                alt=""><br><b>Ponniyin Selvan Part-2</b><br><span> Action/Adventure/Drama/ <br>
+                Historical</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/ponniyin-selvan-part-2/ET00348725"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny44LzEwICA1SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00361926-aawsuekdja-portrait.jpg"
+                alt=""><br><b>Ponniyin Selvan Part-2</b><br><span> Action/Adventure/Drama/ <br>
+                Historical</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/ponniyin-selvan-part-2/ET00348725"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NS40SyBMaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00360151-azhkhswedn-portrait.jpg"
+                alt=""><br><b>Ponniyin Selvan Part-2</b><br><span> Action/Adventure/Drama/ <br>
+                Historical</span></a>
+        <a href="https://in.bookmyshow.com/chennai/movies/ponniyin-selvan-part-2/ET00348725"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MjYuMUsgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00363274-drwafxtdun-portrait.jpg"
+                alt=""><br><b>Ponniyin Selvan Part-2</b><br><span> Action/Adventure/Drama/ <br>
+                Historical</span></a>
+        <!-- </div> -->
+    </div>
+
+
+
+
+    <div class="ads2">
+        <a href="https://in.bookmyshow.com/explore/c/stream"> <img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png"
+                alt=""></a>
+    </div>
+
+
+    <h2
+        style=" margin-left: 145px;font-family: Arial, Helvetica, sans-serif;margin-bottom: 10px;margin-top: 100px;font-size: 22px;">
+        The Best Of Live Events</h2>
+
+
+    <div class="section2">
+        <a href="https://in.bookmyshow.com/explore/workshops-chennai?referrerBase="><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png"
+                alt=""></a>
+        <a href="https://in.bookmyshow.com/explore/kids-chennai?referrerBase="><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png"
+                alt=""></a>
+        <a href="https://in.bookmyshow.com/explore/comedy-shows-chennai?referrerBase="><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NDArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png"
+                alt=""></a>
+        <a href="https://in.bookmyshow.com/explore/music-shows-chennai?referrerBase="><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png"
+                alt=""></a>
+        <a href="https://in.bookmyshow.com/explore/e-sports-chennai?referrerBase="><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png"
+                alt=""></a>
+    </div>
+
+
+    <div class="premiere">
+        <a href="https://in.bookmyshow.com/explore/stream-movies-bms-premier"><img
+                src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/premiere-banner-web-collection-202208191200.png"
+                alt=""></a>
+        <h4>Premieres</h4>
+        <p>Brand new releases every Friday</p>
+        <div class="premierecontent">
+            <a href=""><img
+                    src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00364243-lmpvmyqmad-portrait.jpg"
+                    alt="">
+                <p>Revolt <br><span>English</span></p>
+            </a>
+            <a href=""><img
+                    src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00364300-tmkzfnsxzy-portrait.jpg"
+                    alt="">
+                <p>Mid century <br><span>English</span></p>
+            </a>
+            <a href=""><img
+                    src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00363824-gelsgrerpp-portrait.jpg"
+                    alt="">
+                <p>A Confession <br><span>English</span></p>
+            </a>
+            <a href=""><img
+                    src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00362076-pudgazdzlm-portrait.jpg"
+                    alt="">
+                <p>Close <br> <span>English</span></p>
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <div class="returnhome">
+        <a href="http://127.0.0.1:5500/bookmyshowsample.html">Home</a>
+    </div>
+
+
+    <footer>
+        <div class="footer1">
+            <img src="https://in.bmscdn.com/webin/common/icons/hut.svg" alt="">
+            <p> <b>List your Show </b></p>
+            <p> Got a shew, event, activity or a great experience? Partner with us & get listed
+                on BookMyShow</p>
+            <button><a href="https://in.bookmyshow.com/list-your-show/">Contact today!</a> </button>
+        </div>
+
+
+        <div class="footer2">
+            <a href="https://support.bookmyshow.com/support/home?regionCode=NCR">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" id="iconfooter" width="100%"
+                    height="100%" fill="rgb(198, 198, 199)" style="padding-left: 35px;">
+                    <path
+                        d="M68.8 29.4c0-10.4-8.4-18.8-18.8-18.8S31.2 19 31.2 29.4 39.6 48.2 50 48.2s18.8-8.4 18.8-18.8zm-35.8 0c0-9.3 7.6-17 17-17 9.3 0 17 7.6 17 17 0 9.3-7.6 17-17 17-9.3 0-17-7.6-17-17z">
+                    </path>
+                    <path
+                        d="M24 30.3c.5 0 .9-.4.9-.9C24.9 15.6 36.2 4.3 50 4.3s25.1 11.3 25.1 25.1c0 13.1-10.5 28.3-24.2 29v-3.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v8.6c0 .5.4.9.9.9s.9-.4.9-.9v-2.9c14.7-.7 26-16.8 26-30.8C76.9 14.6 64.8 2.5 50 2.5S23.1 14.6 23.1 29.4c0 .5.4.9.9.9z">
+                    </path>
+                    <path
+                        d="M68.1 63c-.6-.2-1.2-.3-1.9-.3-.9 0-2.3.7-4.9 2.1-3.2 1.7-7.7 4-10.6 4-3.2 0-8-2.3-11.5-4-2.8-1.3-4.3-2-5.3-2-.7 0-1.3.1-1.9.3C16.7 68.2 11.2 86 11.2 96.7c0 .5.4.9.9.9H88c.5 0 .9-.4.9-.9 0-10.8-5.6-28.6-20.8-33.7zM13 95.7c.3-12.1 7.2-26.8 19.6-30.9.4-.1.8-.2 1.3-.2.6 0 2.7 1 4.5 1.9 3.9 1.9 8.7 4.2 12.3 4.2 3.3 0 7.8-2.3 11.4-4.2 1.6-.8 3.6-1.9 4.1-1.9s.9.1 1.3.2C79.9 68.9 86.7 83.6 87 95.7H13zm3.6-55.3c.5 0 .9-.4.9-.9V26.3c0-.5-.4-.9-.9-.9s-.9.4-.9.9v13.2c0 .5.4.9.9.9zm66.8 0c.5 0 .9-.4.9-.9V26.3c0-.5-.4-.9-.9-.9s-.9.4-.9.9v13.2c-.1.5.4.9.9.9z">
+                    </path>
+                </svg>
+                <br>24/7 CUSTOMER CARE</a>
+            <a href="#">
+                <svg class="footer2svg" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" id="iconfooter"
+                    fill="rgb(198, 198, 199)" width="100%" height="100%" style="padding-left: 75px;">
+                    <path
+                        d="M92.1 69l-5.6-13.9a1 1 0 0 0-1.1-.5c-1.9.8-4.1-.2-4.8-2.1-.4-.9-.4-1.9 0-2.8.4-.9 1.1-1.6 2-2 .2-.1.4-.2.5-.4s.1-.4 0-.6l-5.6-13.9a1 1 0 0 0-1.1-.5L61 38.5l9-20.9c.2-.4 0-.9-.4-1.1L57 11.1c-.4-.2-.9 0-1.1.4a3.3 3.3 0 0 1-4.3 1.8c-.8-.3-1.4-1-1.8-1.8-.3-.8-.3-1.7 0-2.5.1-.2.1-.4 0-.6-.1-.2-.2-.4-.4-.5L36.8 2.6c-.4-.2-.9 0-1.1.4L12.3 58.2l-3.9 1.5c-.2.2-.4.3-.4.5-.1.2-.1.4 0 .6l5.6 13.9c.2.4.7.6 1.1.5 1.9-.7 4.1.2 4.8 2 .4.9.4 1.9 0 2.8s-1.1 1.6-2 2c-.2.1-.4.2-.5.4-.1.2-.1.4 0 .6l5.4 14c.1.2.2.4.4.5.1 0 .2.1.3.1.1 0 .2 0 .3-.1l68.1-27.3c.5-.2.7-.7.6-1.2zM36.9 4.4L48 9.1c-.2 1-.2 2 .2 3 .5 1.2 1.4 2.2 2.7 2.7 2.3 1 4.8.1 6.1-1.9l11.1 4.7-9.3 21.8-4.7 1.9L59 30.2l2.5-5.8c.1-.2.1-.4 0-.6s-.2-.4-.4-.5L38 13.5c-.2-.1-.4-.1-.6 0-.2.1-.4.2-.5.4L19.1 55.5l-4.7 1.9 22.5-53zm-1.4 16.7l.8.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-.8-.3 1.8-4.3 21.6 9.2-1.8 4.3-.8-.4c-.4-.2-.9 0-1.1.4-.2.4 0 .9.4 1.1l.8.3-5.1 12-30.7 12.4 14.2-33.5zM23.7 95.6l-5-12.4c1-.6 1.7-1.4 2.2-2.5.6-1.3.6-2.8 0-4.1-.8-2-2.8-3.4-5-3.4-.4 0-.8 0-1.2.1L9.8 61l66.5-26.7 5 12.4c-1 .6-1.7 1.4-2.2 2.5a4.9 4.9 0 0 0 0 4.1c.8 2 2.8 3.4 5 3.4.4 0 .8 0 1.2-.1l5 12.4-66.6 26.6z">
+                    </path>
+                    <path
+                        d="M70 42.1c-.1-.2-.2-.4-.4-.5-.2-.1-.4-.1-.6 0L20.2 61.2a1 1 0 0 0-.5 1.1L30 87.8c.1.2.2.4.4.5.1 0 .2.1.3.1.1 0 .2 0 .3-.1l42.3-17 6.4-2.6c.4-.2.6-.7.5-1.1L70 42.1zm3.5 27.3l-.3-.8a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l.4.8-34.2 13.7-.3-.7a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l.3.8-5.1 2-9.6-23.9 5.1-2 .3.8c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-.3-.8 34.1-13.7.3.8c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-.3-.8 4.9-2 9.6 23.9-4.9 2.1z">
+                    </path>
+                    <path
+                        d="M30.6 65.7c-.2-.4-.7-.6-1.1-.5s-.6.7-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm3.5 8.6a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm32.2-22.9a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm1.9 9.3l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1L69.7 60a1 1 0 0 0-1.1-.5c-.4.2-.6.7-.4 1.2zm-19.5-34l3.1 1.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-3.1-1.3c-.4-.2-.9 0-1.1.4-.3.4-.1.9.4 1.1zm-7.8-3.3l3.1 1.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-3.1-1.3c-.4-.2-.9 0-1.1.4-.2.4 0 .9.4 1.1zm13.4 41.4c-.5 0-.8.4-.8.8 0 2.4-2 4.4-4.4 4.4s-4.4-2-4.4-4.4c0-2.3 1.9-4.2 4.2-4.3l-1.6 2.3c-.3.4-.2.9.2 1.2.1.1.3.1.5.1.3 0 .5-.1.7-.4l2.6-3.7c.3-.4.2-.9-.2-1.1L47.5 57c-.4-.3-.9-.2-1.2.2s-.2.9.2 1.2l1.9 1.4c-3 .3-5.4 2.9-5.4 5.9 0 3.3 2.7 6 6 6s6-2.7 6-6c.1-.5-.3-.9-.7-.9z">
+                    </path>
+                </svg>
+                <br>RESEND BOOKING CONFIRMATION</a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" id="iconfooter" viewBox="-1 -1 102 102" width="100%"
+                    height="100%" fill="rgb(198, 198, 199)" style="padding-left: 70px;">
+                    <g id="elnewsletter">
+                        <path class="elst0"
+                            d="M97.5 90.3V33.6c0-.5-.4-1-1-1H82.9V9.8c0-.5-.4-1-1-1H18.1a1 1 0 0 0-1 1v22.8H3.5a1 1 0 0 0-1 1v56.9c0 .1.1.1.1.2v.1c0 .1.1.1.2.1.1.1.2.1.2.1.1 0 .1 0 .2.1h93.4c.1 0 .3 0 .4-.1 0 0 .1 0 .1-.1.1-.1.2-.1.2-.2v-.1c0-.1.1-.1.1-.2.1 0 .1 0 .1-.1zm-1.9-55.7v53.6L63.9 64.1l18.6-17.7 7.7-7.4c.3-.3.4-.7.2-1.1-.1-.4-.5-.6-.9-.6h-6.8v-2.7h12.9zM50.2 56.1l43.4 33.1H6.4l43.8-33.1zm32.7-16.8h4.4l-4.4 4.1v-4.1zM19.1 10.8h61.8v34.5L62.4 62.9l-11.6-8.8c-.3-.3-.8-.3-1.2 0L37.8 63 19.1 45.3V10.8zm-2 32.6l-4.4-4.1h4.4v4.1zm0-8.8v2.7h-6.8c-.4 0-.8.2-.9.6-.1.4-.1.8.2 1.1l26.5 25.2-31.8 24V34.6h12.8z">
+                        </path>
+                        <path class="elst0"
+                            d="M28.9 22.5h42.7a1 1 0 0 0 0-2H28.9c-.5 0-1 .4-1 1s.4 1 1 1zm0 10h42.7a1 1 0 0 0 0-2H28.9a1 1 0 0 0 0 2zm0 9.9h42.7a1 1 0 0 0 0-2H28.9c-.5 0-1 .4-1 1s.4 1 1 1z">
+                        </path>
+                    </g>
+                </svg> <br>SUBSCRIBE TO THE NEWS LETTER</a>
+        </div>
+
+
+        <div class="footer3">
+
+            <h4>MOVIES BY GENRE</h4>
+            <ul>
+                <li> <a href="">Drama Movies</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Thriller Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Comedy Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Action Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Adventure Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Romantic Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Crime Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Animation Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Horror Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Mystery Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Fantasy Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Adaptation Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Devotional Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Mythological Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Noir Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Political Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Supernatural movies-chennai</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Sports Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Heist Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Suspense Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Historical Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Tragedy Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Anime Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Psychological Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Biography Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">War Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Period Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Classic Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Musical Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Adult Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Screening Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Sci-Fi Movies</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Bollywood Movies</a></li>
+            </ul>
+
+            <h4>MOVIES BY LANGUAGE</h4>
+            <ul>
+                <li> <a href="">Movies in Tamil</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in English</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Hindi</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Telugu</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Chattisgarhi</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Khasi</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in English 7D</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Nepali</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Portguese</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in French</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Bhojpuri</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Tulu</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Assamese</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Haryanvi</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies Japanese</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Sindhi</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Urdu</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Malayalam</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Odia</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Gujarati</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Konkani</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Kannada</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Bengali</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Marathi</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies Rajasthani</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Punjabi</a></li>
+            </ul>
+
+            <h4>MOVIE REVIEWS AND TRENDING ARTICLES</h4>
+            <ul>
+                <li> <a href="">Trending Articles</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Latest News on Movies, Events, Plays and Sports</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movie Celebrities</a></li>
+            </ul>
+
+            <h4>MOVIE UPDATE AND CELEBRITIES</h4>
+            <ul>
+                <li> <a href="">Upcoming Movies</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies Now Showing</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movie Celebrities</a></li>
+            </ul>
+
+            <h4>CINEMAS IN TOP CITIES</h4>
+            <ul>
+                <li> <a href="">Cinemas in Mumbai</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Cinemas in Delhi-NCR</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Cinemas in Chennai</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Cinemas in Bengaluru</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Cinemas in Hyderabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Cinemas in Pune</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Cinemas in Ahmedabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Cinemas in Kolkata</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Cinemas in Kochi</a></li>
+            </ul>
+
+            <h4>EVENTS IN TOP CITIES</h4>
+            <ul>
+                <li> <a href="">Events in Mumbai</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Events in Delhi-NCR</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Events in Chennai</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Events in Bengaluru</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Events in Hyderabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Events in Pune</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Events in Ahmedabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Events in Kolkata</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Events in Kochi</a></li>
+            </ul>
+
+            <h4>PLAYS IN TOP CITIES</h4>
+            <ul>
+                <li> <a href="">Plays in Mumbai</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Plays in Delhi-NCR</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Plays in Chennai</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Plays in Bengaluru</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Plays in Hyderabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Plays in Pune</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Plays in Ahmedabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Plays in Kolkata</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Plays in Kochi</a></li>
+            </ul>
+
+            <h4>ACTIVITIES IN TOP CITIES</h4>
+            <ul>
+                <li> <a href="">Things to do in Mumbai</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Things to do in Delhi-NCR</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Things to do in Chennai</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Things to do in Bengaluru</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Things to do in Hyderabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Things to do in Pune</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Things to do in Ahmedabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Things to do in Kolkata</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Things to do in Kochi</a></li>
+            </ul>
+
+            <h4>MOVIES IN TOP CITIES</h4>
+            <ul>
+                <li> <a href="">Movies in Mumbai</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Delhi-NCR</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Chennai</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Bengaluru</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Hyderabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Movies in Pune</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Ahmedabad</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Kolkata</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movies in Kochi</a></li>
+            </ul>
+
+            <h4>COUNTRIES</h4>
+            <ul>
+                <li> <a href="">Indonesia</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Singapore</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">UAE</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Sri Lanka</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">West Indies</a></li>
+            </ul>
+
+            <h4>HELP</h4>
+            <ul>
+                <li> <a href="">About Us</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Contact Us</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Current Opening</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Press Release</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Press Coverage</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Sitemap</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">FAQs</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+
+            <h4>BOOKMYSHOW EXCLUSIVES</h4>
+            <ul>
+                <li> <a href="">Lollapalooza India</a> </li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Superstar</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">BookASmile</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">Corporate Vouchers</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Gift Cards</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li> <a href="">List My Show</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Offers</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Stream/a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Buzz</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Movie Trailers</a></li>
+                <li>
+                    <p> | </p>
+                </li>
+                <li><a href="">Summer Activities</a></li>
+            </ul>
+        </div>
+
+        <div class="footer4">
+            <hr>
+            <a href="https://in.bookmyshow.com/explore/home/chennai"><img src="bookmyshow-logobg.png" alt=""></a>
+            <hr>
+        </div>
+
+        <div class="footer5">
+            <a href="https://www.facebook.com/BookMyShowIN"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-1 -1 98 98" fill="rgb(93, 93, 95)" class="svgicon">
+                    <path
+                        d="M48 .5C21.8.5.5 21.8.5 48S21.8 95.5 48 95.5 95.5 74.2 95.5 48 74.2.5 48 .5zm11.8 49.2h-7.7v27.5H40.6V49.7h-5.4V40h5.4v-6.3c0-4.5 2.1-11.6 11.6-11.6h8.5v9.4h-6.2c-1 0-2.4.5-2.4 2.7v5.7h8.7l-1 9.8z">
+                    </path>
+                </svg></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FBookMyShow%2F"> <svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 98 98" fill="rgb(93, 93, 95)" class="svgicon">
+                    <path
+                        d="M48 .5C21.8.5.5 21.8.5 48S21.8 95.5 48 95.5 95.5 74.2 95.5 48 74.2.5 48 .5zm21.2 36.6v1.4c0 14.4-11 31.1-31.1 31.1-6.2 0-11.9-1.8-16.8-4.9.9.1 1.7.2 2.6.2 5.1 0 9.8-1.7 13.6-4.7-4.8-.1-8.8-3.2-10.2-7.6.7.1 1.4.2 2.1.2 1 0 2-.1 2.9-.4-5-1-8.8-5.4-8.8-10.7v-.1c1.5.8 3.2 1.3 4.9 1.4-2.9-2-4.9-5.3-4.9-9.1 0-2 .5-3.9 1.5-5.5 5.4 6.6 13.4 11 22.5 11.4a10.93 10.93 0 0 1 10.6-13.4c3.1 0 6 1.3 8 3.5 2.5-.5 4.8-1.4 6.9-2.7-.8 2.6-2.6 4.7-4.8 6 2.2-.3 4.3-.8 6.3-1.7-1.3 2.2-3.2 4.1-5.3 5.6z">
+                    </path>
+                </svg> </a>
+            <a href="https://www.instagram.com/bookmyshowin/"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-1 -1 102 102" fill="rgb(93, 93, 95)" class="svgicon">
+                    <path
+                        d="M50 59a8.96 8.96 0 0 0 7.3-14.2 8.9 8.9 0 0 0-14.6 0A8.96 8.96 0 0 0 50 59zm19.7-20v-8.7H61V39z">
+                    </path>
+                    <path
+                        d="M50 5C25.2 5 5 25.2 5 50s20.2 45 45 45 45-20.2 45-45S74.8 5 50 5zm25.6 39.8v20.9c0 5.4-4.4 9.9-9.9 9.9H34.3c-5.4 0-9.9-4.4-9.9-9.9V34.3c0-5.4 4.4-9.9 9.9-9.9h31.4c5.4 0 9.9 4.4 9.9 9.9v10.5z">
+                    </path>
+                    <path
+                        d="M64.1 50c0 7.7-6.2 14-14 14a13.98 13.98 0 0 1-13-19.2h-7.6v20.9c0 2.7 2.2 4.9 4.9 4.9h31.4c2.7 0 4.9-2.2 4.9-4.9V44.8H63c.7 1.5 1.1 3.4 1.1 5.2z">
+                    </path>
+                </svg></a>
+            <a href="https://www.youtube.com/user/BookMyShow/featured"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-1 -1 102 102" fill="rgb(93, 93, 95)" class="svgicon">
+                    <path d="M43.6 57.7c5.3-2.7 10.5-5.4 15.7-8.2-5.3-2.8-10.5-5.5-15.7-8.2v16.4z"></path>
+                    <path
+                        d="M50 2.5C23.8 2.5 2.5 23.8 2.5 50S23.8 97.5 50 97.5 97.5 76.2 97.5 50 76.2 2.5 50 2.5zm23.9 59.2c-.6 2.6-2.8 4.6-5.4 4.9-6.1.7-12.4.7-18.5.7-6.2 0-12.4 0-18.5-.7-2.6-.3-4.7-2.2-5.4-4.9-.9-3.8-.9-7.8-.9-11.7s0-8 .9-11.7c.6-2.6 2.8-4.6 5.4-4.9 6.1-.7 12.4-.7 18.5-.7 6.2 0 12.4 0 18.5.7 2.6.3 4.7 2.2 5.4 4.9.9 3.8.9 7.8.9 11.7s0 8-.9 11.7z">
+                    </path>
+                </svg></a>
+            <a href="https://www.pinterest.com/bookmyshow/"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-1 -1 102 102" fill="rgb(93, 93, 95)" class="svgicon">
+                    <path
+                        d="M50 2.5C23.8 2.5 2.5 23.8 2.5 50S23.8 97.5 50 97.5 97.5 76.2 97.5 50 76.2 2.5 50 2.5zm4.9 58.1c-2.9 0-5.7-1.6-6.7-3.4l-1.9 7.5c-1.2 4.3-4.7 8.6-4.9 8.9-.2.2-.6.2-.7-.2-.1-.6-1-6 .1-10.4.5-2.2 3.5-14.9 3.5-14.9s-.9-1.7-.9-4.3c0-4 2.3-7.1 5.3-7.1 2.5 0 3.7 1.9 3.7 4.1 0 2.5-1.6 6.2-2.4 9.7-.7 2.9 1.4 5.3 4.3 5.3 5.2 0 8.6-6.6 8.6-14.5 0-6-4-10.5-11.3-10.5-8.3 0-13.4 6.2-13.4 13.1 0 2.4.7 4.1 1.8 5.3.5.6.6.8.4 1.5-.1.5-.4 1.7-.6 2.2-.2.7-.7.9-1.4.7-3.8-1.5-5.6-5.7-5.6-10.4 0-7.7 6.5-17 19.5-17 10.4 0 17.3 7.5 17.3 15.6 0 10.8-5.9 18.8-14.7 18.8z">
+                    </path>
+                </svg></a>
+            <a href="https://www.linkedin.com/company/bookmyshow/"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-1 -1 102 102" fill="rgb(93, 93, 95)" class="svgicon">
+                    <path
+                        d="M50 2.5C23.8 2.5 2.5 23.8 2.5 50S23.8 97.5 50 97.5 97.5 76.2 97.5 50 76.2 2.5 50 2.5zm-7.8 63.9h-8.6V36.3h8.6v30.1zm-4-32c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm34.1 32h-8.6V47.8c0-2.2-.6-3.7-3.3-3.7-4.4 0-5.3 3.7-5.3 3.7v18.6h-8.6V36.3h8.6v2.9c1.2-.9 4.3-2.9 8.6-2.9 2.8 0 8.6 1.7 8.6 11.7v18.4z">
+                    </path>
+                </svg></a>
+        </div>
+
+        <div class="footer6">
+            <p>Copyright 2023 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.
+                <br>The content and images used on this site are copyright protected and copyrights vests with the
+                respective owners. The usage of the content and images on this website is intended to promote the works
+                <br>and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by
+                law.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="bmsjavascript.js"></script>
+</body>
+
+</html>
