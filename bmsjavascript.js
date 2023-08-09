@@ -59,8 +59,7 @@ document.getElementById("s2rightarrow").addEventListener("click", function () {
   document.getElementById("s2rightarrow").style.display = "none";
   setTimeout(slidetimeleft2, 800)
   document.getElementById("s2second").style.display = "flex";
-});
-function slidetimeleft2() {
+});function slidetimeleft2() {
   document.getElementById("s2leftarrow").style.display = "flex";
 }
 

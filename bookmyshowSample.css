@@ -47,7 +47,7 @@ nav #search:focus {
 
 nav .right {
     display: flex;
-    margin-left: 360px;
+    margin-left: 340px;
 }
 
 .right a {
@@ -586,7 +586,7 @@ nav .right {
 /**************************************/
 
 .section1title {
-    margin-left: 145px;
+    padding-left: 145px;
     /*145*/
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -636,11 +636,11 @@ nav .right {
     text-align: left;
     font-size: 17px;
     line-height: 25px;
-    width: 220px;
+    /* width: 220px; */
 }
 
 .section1 img {
-    width: 220px;
+    /* width: 220px; */
     /*190*/
     height: 370px;
     /*320*/
@@ -651,7 +651,7 @@ nav .right {
 .section1 .s1second {
     display: none;
     flex-direction: row;
-    margin-left: 220px;
+    padding-left: 200px;
 }
 
 .section1 .s1second a {
@@ -689,7 +689,7 @@ nav .right {
     cursor: pointer;
     border-radius: 50%;
     position: relative;
-    left: 240px;
+    left: 220px;
     margin-top: 160px;
     /* top: 35%; */
 }
@@ -700,7 +700,6 @@ nav .right {
 .ads2 {
     padding-left: 140px;
     margin-top: 100px;
-
 }
 
 .ads2 a img {
@@ -708,6 +707,13 @@ nav .right {
     height: 100px;
 }
 
+.section2title {
+    margin-left: 145px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 22px;
+}
 
 .section2 {
     padding-left: 140px;
@@ -728,6 +734,7 @@ nav .right {
     display: none;
     flex-direction: row;
     padding-left: 190px;
+    position: relative;
 }
 
 #s2rightarrow {
@@ -1007,3 +1014,5 @@ nav .right {
     background-color: rgb(54, 54, 54);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width:780px) {}
