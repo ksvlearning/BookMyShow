@@ -51,6 +51,10 @@
         /*200px*/
     }
 
+    /* .section1 img {
+        width: 110%;
+        height: 80%;
+    } */
 
 
     .section1 #s1rightarrow,
@@ -75,10 +79,11 @@
     }
 
     .section1 .s1second a {
-        width: 15%;
+        width: 16%;
         /*220*/
-        /* margin-left: 3px; */
     }
+
+
 
     .ads2 {
         padding-left: 6%;
